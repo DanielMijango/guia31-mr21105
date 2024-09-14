@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?> 
+<?xml-stylesheet type="text/css" href="mr21105-ejemplo1a.css" ?>
+<fichero2>
+<ficha id="1" fechaingreso="1/11/2012">
+<nombre>Antonio</nombre>
+<apellido>Barbero</apellido>
+<direccion>Calle de Los Andes, 45</direccion>
+<telefono>mi telefono es 1234-5678</telefono>
+<email>mi email  es Antoniobarberito@gmail.com</email>
+</ficha>
+</fichero2> 

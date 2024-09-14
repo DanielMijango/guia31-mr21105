@@ -1,0 +1,54 @@
+/* mr21105-ejemplo1b.css */
+
+/* Estilos generales para el contenedor principal */
+fichero3 {
+    font-family: 'Arial', sans-serif;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    color: #333;
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para cada ficha */
+ficha {
+   
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+
+}
+
+/* Estilos para los elementos dentro de cada ficha */
+ficha > nombre, ficha > apellido, ficha > direccion, ficha > telefono, ficha > email {
+    display: block;
+    margin-bottom: 12px;
+}
+
+/* Estilo específico para el nombre */
+nombre {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Estilo específico para el apellido */
+apellido {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #6c757d;
+}
+
+/* Estilo para la dirección, teléfono y email */
+direccion, telefono, email {
+    font-size: 1em;
+    color: #495057;
+}
+
+/* Agregar un poco de espacio al final */
+ficha:last-child {
+    margin-bottom: 0;
+}

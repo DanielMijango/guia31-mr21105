@@ -1,0 +1,54 @@
+/* mr21105-ejemplo2b.css */
+
+/* Estilos generales para el documento XML */
+pais {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Estilo para el nombre del país */
+pais::before {
+    content: attr(nombre);
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los departamentos */
+departamento, departamento2, departamento3 {
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+/* Estilo para el nombre del departamento */
+departamento::before, departamento2::before, departamento3::before {
+    content: attr(cabecera);
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2980b9;
+    margin-bottom: 5px;
+}
+
+/* Estilo para los detalles de los departamentos */
+habitantes, altura {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+/* Estilo para el número de habitantes */
+habitantes {
+    color: #e74c3c;
+}
+
+/* Estilo para la altura */
+altura {
+    color: #27ae60;
+}

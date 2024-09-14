@@ -1,0 +1,48 @@
+/* mr21105-ejemplo2a.css */
+
+/* Estilos generales para el contenedor principal */
+pais {
+    font-family: 'Arial', sans-serif;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    color: #ffffff;
+    background-color: #003366; /* Fondo azul oscuro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para cada departamento */
+departamento, departamento2 {
+   
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+   
+}
+
+/* Estilos para los elementos dentro de cada departamento */
+departamento > cabecera, departamento > habitantes, departamento > altura,
+departamento2 > cabecera, departamento2 > habitantes, departamento2 > altura {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo específico para la cabecera */
+cabecera {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Estilo para habitantes y altura */
+habitantes, altura {
+    font-size: 1em;
+    color: #d0d0d0; /* Gris claro */
+}
+
+/* Ajuste para el último departamento */
+departamento:last-child, departamento2:last-child {
+    margin-bottom: 0;
+}

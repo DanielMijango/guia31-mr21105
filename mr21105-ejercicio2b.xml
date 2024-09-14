@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?> 
+<?xml-stylesheet type="text/css" href="mr21105-ejemplo2b.css" ?>
+<pais nombre="El Salvador"  moneda="cacao tostado" cta="503" idioma="nahuatl">
+
+<!--cambio realizado, pasar cabecera como atributo-->
+
+<departamento id="1" nombre="San Salvador" cabecera="San Salvador">
+
+<habitantes>1,700,000</habitantes>
+<altura>545 MSNM</altura>
+</departamento>
+<!-- segundo departamento   -->
+<departamento2 id="2" nombre="La libertad" cabecera="la libertad">
+
+<habitantes>37,000</habitantes>
+<altura>100 MSNM</altura>
+</departamento2>
+<!-- tercer departamento   -->
+<departamento3 id="2" nombre="La union" cabecera="la union sur">
+
+<habitantes>57,000</habitantes>
+<altura>643 MSNM</altura>
+</departamento3>
+</pais>

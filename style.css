@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.conclusiones {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.cuadro {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation: fadeIn 0.6s ease-out;
+}
+
+.cuadro h2 {
+    margin-top: 0;
+    animation: slideUp 0.5s ease-out;
+}
+
+.texto {
+    flex: 1;
+}
+
+.atajos {
+    margin-top: 20px;
+}
+
+.atajos a {
+    text-decoration: none;
+    color: #007bff;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.atajos a:hover {
+    color: #0056b3;
+    animation: underlineAnimation 0.3s forwards;
+}
+
+.biografia {
+    margin: 20px;
+}
+
+.texto-con-imagen {
+    display: flex;
+    align-items: flex-start;
+}
+
+.imagen-derecha {
+    margin-left: 20px;
+    width: 150px;
+    height: auto;
+    animation: slideIn 0.5s ease-out;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes underlineAnimation {
+    from {
+        text-decoration: none;
+    }
+    to {
+        text-decoration: underline;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+.animated-text {
+    animation: fadeInUp 2s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.highlight {
+    background: linear-gradient(90deg, rgb(47, 0, 255) 0%, rgb(0, 255, 136) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-animated {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+
+}
